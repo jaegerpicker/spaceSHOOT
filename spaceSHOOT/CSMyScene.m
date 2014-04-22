@@ -9,7 +9,35 @@
 #import "CSMyScene.h"
 #import "CSSpaceShipScene.h"
 
-@implementation CSMyScene
+
+static const uint32_t shipCategory =  0x1 << 0;
+static const uint32_t obstacleCategory =  0x1 << 1;
+
+static const float BG_VELOCITY = 100.0;
+static const float OBJECT_VELOCITY = 160.0;
+
+static inline CGPoint CGPointAdd(const CGPoint a, const CGPoint b)
+{
+    return CGPointMake(a.x + b.x, a.y + b.y);
+}
+
+static inline CGPoint CGPointMultiplyScalar(const CGPoint a, const CGFloat b)
+{
+    return CGPointMake(a.x * b, a.y * b);
+}
+
+
+@implementation CSMyScene{
+    
+    SKSpriteNode *ship;
+    SKAction *actionMoveUp;
+    SKAction *actionMoveDown;
+    
+    NSTimeInterval _lastUpdateTime;
+    NSTimeInterval _dt;
+    NSTimeInterval _lastMissileAdded;
+    
+}
 
 -(id)initWithSize:(CGSize)size {    
     if (self = [super initWithSize:size]) {
