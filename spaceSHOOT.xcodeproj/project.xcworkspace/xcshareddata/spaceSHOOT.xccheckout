@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>225C118E-3737-4A30-BF03-7DCB85B1574F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>spaceSHOOT</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5116CCBF-7BDF-4737-A845-DFA21CEAD9F5</key>
+		<string>https://github.com/jaegerpicker/spaceSHOOT.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>spaceSHOOT.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5116CCBF-7BDF-4737-A845-DFA21CEAD9F5</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jaegerpicker/spaceSHOOT.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5116CCBF-7BDF-4737-A845-DFA21CEAD9F5</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5116CCBF-7BDF-4737-A845-DFA21CEAD9F5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>spaceSHOOT</string>
+		</dict>
+	</array>
+</dict>
+</plist>
